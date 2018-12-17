@@ -1,4 +1,4 @@
-def maskify(cc):
+def mask_digits(cc):
 
     """
     A function which takes in a string, converts
@@ -33,10 +33,8 @@ def maskify(cc):
         elif counter >= list_len - 5:
             masked_list.append(letter)
 
-
-
     masked_list = "".join(masked_list)
     return masked_list
 
 
-print(maskify("4444 4444 4444 4444"))
+print(mask_digits("4444 4444 4444 4444"))
