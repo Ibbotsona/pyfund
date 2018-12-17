@@ -37,7 +37,7 @@ def remove_illegal_characters(str_list):
          Returns a new list with illegal characters removed
     """
     legal_letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
-                     'l', ' m', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+                     'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
                      'v', 'w', 'x', 'y', 'z']
     legal_str_list = [letter for letter in str_list if letter in legal_letters]
     return legal_str_list
